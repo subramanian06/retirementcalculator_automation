@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="nz.co.westpac.glue.CucumberFeatureWrapper">
+        <methods>
+          <include name="Verify_if_tax_projections_are_displayed__For_UnEmployed2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- nz.co.westpac.glue.CucumberFeatureWrapper -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

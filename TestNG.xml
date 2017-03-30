@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+<listeners>
+<listener class-name="nz.co.westpac.entities.DriverListener"></listener>
+</listeners>
+    <test name="Test">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="nz.co.westpac.glue.CucumberFeatureWrapper" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
