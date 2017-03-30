@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\subramanian_k04\AppData\Local\Temp\testng-eclipse--1285014284\testng-customsuite.xml</span>
+                    <span>C:\Users\subramanian_k04\AppData\Local\Temp\testng-eclipse-389318219\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="nz.co.westpac.test.RegressionTest" hash-for-method="tc02_Verify_if_tax_projections_are_displayed__For_Employed">tc02_Verify_if_tax_projections_are_displayed__For_Employed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="nz.co.westpac.test.RegressionTest" hash-for-method="tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed">tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="nz.co.westpac.test.RegressionTest" hash-for-method="tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed">tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,21 +136,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="nz.co.westpac.test.RegressionTest" hash-for-method="t01_Verify_if_information_Icon_Works_Fine">t01_Verify_if_information_Icon_Works_Fine</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="nz.co.westpac.test.RegressionTest" hash-for-method="tc02_Verify_if_tax_projections_are_displayed__For_Employed">tc02_Verify_if_tax_projections_are_displayed__For_Employed</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="nz.co.westpac.test.RegressionTest" hash-for-method="tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed">tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="nz.co.westpac.test.RegressionTest" hash-for-method="tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed">tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -132,30 +150,80 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">nz.co.westpac.test.RegressionTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="t01_Verify_if_information_Icon_Works_Fine">
-                  </a> <!-- t01_Verify_if_information_Icon_Works_Fine -->
-                  <span class="method-name">t01_Verify_if_information_Icon_Works_Fine</span>
-                  <em>
-(verify if the user is able to get a clear understanding of what needs to be entered in the field.)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="tc02_Verify_if_tax_projections_are_displayed__For_Employed">
                   </a> <!-- tc02_Verify_if_tax_projections_are_displayed__For_Employed -->
                   <span class="method-name">tc02_Verify_if_tax_projections_are_displayed__For_Employed</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.17 seconds
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;TVMATP407267D&apos;, ip: &apos;10.24.98.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\subramanian_k04\AppData\Local\Temp\scoped_dir4472_7965}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a711dbb7aa0f3519bcc3403390e35a22
+*** Element info: {Using=xpath, value=//div[@class=&apos;results-heading&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at nz.co.westpac.utils.CommonFunctions.driverFindElementByXpath(CommonFunctions.java:49)
+	at nz.co.westpac.pages.CalculatorPage.verifyCalcResults(CalculatorPage.java:192)
+	at nz.co.westpac.test.RegressionTest.tc02_Verify_if_tax_projections_are_displayed__For_Employed(RegressionTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
                   <em>
 (verify if a employed user is able to calculate what their KiwiSaver projected balance would be at retirement)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">nz.co.westpac.test.RegressionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed">
@@ -175,11 +243,28 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nz.co.westpac.test.RegressionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="t01_Verify_if_information_Icon_Works_Fine">
+                  </a> <!-- t01_Verify_if_information_Icon_Works_Fine -->
+                  <span class="method-name">t01_Verify_if_information_Icon_Works_Fine</span>
+                  <em>
+(verify if the user is able to get a clear understanding of what needs to be entered in the field.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\subramanian_k04\AppData\Local\Temp\testng-eclipse--1285014284\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\subramanian_k04\AppData\Local\Temp\testng-eclipse-389318219\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -250,26 +335,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed')
+data.setCell(0, 1, 'tc02_Verify_if_tax_projections_are_displayed__For_Employed')
 data.setCell(0, 2, 'nz.co.westpac.test.RegressionTest')
-data.setCell(0, 3, 55614);
+data.setCell(0, 3, 45453);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed')
+data.setCell(1, 1, 't01_Verify_if_information_Icon_Works_Fine')
 data.setCell(1, 2, 'nz.co.westpac.test.RegressionTest')
-data.setCell(1, 3, 50817);
+data.setCell(1, 3, 44673);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tc02_Verify_if_tax_projections_are_displayed__For_Employed')
+data.setCell(2, 1, 'tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed')
 data.setCell(2, 2, 'nz.co.westpac.test.RegressionTest')
-data.setCell(2, 3, 47327);
+data.setCell(2, 3, 11);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 't01_Verify_if_information_Icon_Works_Fine')
+data.setCell(3, 1, 'tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed')
 data.setCell(3, 2, 'nz.co.westpac.test.RegressionTest')
-data.setCell(3, 3, 43400);
+data.setCell(3, 3, 6);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -281,28 +366,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed</span>
+              <span class="reporter-method-name">t01_Verify_if_information_Icon_Works_Fine</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Passed: Maximizing the window...</span>
                 <span class="reporter-method-output">Passed: Mouse hover on kiwi saver button successfull...</span>
                 <span class="reporter-method-output">Passed: Clicked on the kiwi saver calculator button successfully...</span>
                 <span class="reporter-method-output">Passed: Clicked on the click on to get started button successfully...</span>
-                <span class="reporter-method-output">Passed:Entered the age as :55</span>
-                <span class="reporter-method-output">Passed: Clicked on employee Status drop down</span>
-                <span class="reporter-method-output">Passed: Selected the employee status as :Not employed</span>
-                <span class="reporter-method-output">Passed: Entered the Kiwi saver balance as : 140000</span>
-                <span class="reporter-method-output">Passed: Entered the voluntary contributes amount as : 90</span>
-                <span class="reporter-method-output">Passed: Clicked the voluntary contributes frequency dropdown</span>
-                <span class="reporter-method-output">Passed: Clicked the voluntary contributes frequency as :Annually</span>
-                <span class="reporter-method-output">Passed: Entered the savings goal amount as : 200000</span>
-                <span class="reporter-method-output">Passed: Clicked on PIR(Prescribed investor rate) drop down</span>
-                <span class="reporter-method-output">Passed: Clicked on PIR(Prescribed investor rate) % as :10.5%</span>
-                <span class="reporter-method-output">Passed: Clicked on risk profile as :Medium</span>
-                <span class="reporter-method-output">Passed: Clicked on view retirement projection button</span>
-                <span class="reporter-method-output">Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
-$
-199,401</span>
-                <span class="reporter-method-output">Passed: Retirement projection graph is successfully displayed</span>
+                <span class="reporter-method-output">Passed:Clicked on the age info icon...</span>
+                <span class="reporter-method-output">Passed:Field info is present on clicking the info icon...This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -321,46 +392,6 @@ $
                 <span class="reporter-method-output">Passed: Clicked on PIR(Prescribed investor rate) % as :17.5%</span>
                 <span class="reporter-method-output">Passed: Clicked on risk profile as :High</span>
                 <span class="reporter-method-output">Passed: Clicked on view retirement projection button</span>
-                <span class="reporter-method-output">Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
-$
-400,615</span>
-                <span class="reporter-method-output">Passed: Retirement projection graph is successfully displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">t01_Verify_if_information_Icon_Works_Fine</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Passed: Maximizing the window...</span>
-                <span class="reporter-method-output">Passed: Mouse hover on kiwi saver button successfull...</span>
-                <span class="reporter-method-output">Passed: Clicked on the kiwi saver calculator button successfully...</span>
-                <span class="reporter-method-output">Passed: Clicked on the click on to get started button successfully...</span>
-                <span class="reporter-method-output">Passed:Clicked on the age info icon...</span>
-                <span class="reporter-method-output">Passed:Field info is present on clicking the info icon...This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Passed: Maximizing the window...</span>
-                <span class="reporter-method-output">Passed: Mouse hover on kiwi saver button successfull...</span>
-                <span class="reporter-method-output">Passed: Clicked on the kiwi saver calculator button successfully...</span>
-                <span class="reporter-method-output">Passed: Clicked on the click on to get started button successfully...</span>
-                <span class="reporter-method-output">Passed:Entered the age as :45</span>
-                <span class="reporter-method-output">Passed: Clicked on employee Status drop down</span>
-                <span class="reporter-method-output">Passed: Selected the employee status as :Self-employed</span>
-                <span class="reporter-method-output">Passed: Entered the Kiwi saver balance as : 100000</span>
-                <span class="reporter-method-output">Passed: Entered the voluntary contributes amount as : 90</span>
-                <span class="reporter-method-output">Passed: Clicked the voluntary contributes frequency dropdown</span>
-                <span class="reporter-method-output">Passed: Clicked the voluntary contributes frequency as :Fortnightly</span>
-                <span class="reporter-method-output">Passed: Entered the savings goal amount as : 290000</span>
-                <span class="reporter-method-output">Passed: Clicked on PIR(Prescribed investor rate) drop down</span>
-                <span class="reporter-method-output">Passed: Clicked on PIR(Prescribed investor rate) % as :10.5%</span>
-                <span class="reporter-method-output">Passed: Clicked on risk profile as :Medium</span>
-                <span class="reporter-method-output">Passed: Clicked on view retirement projection button</span>
-                <span class="reporter-method-output">Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
-$
-281,438</span>
-                <span class="reporter-method-output">Passed: Retirement projection graph is successfully displayed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -385,52 +416,40 @@ $
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">71 ms</span>
+                <span class="method-start">54 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">t01_Verify_if_information_Icon_Works_Fine</span>
-                <span class="method-start">22265 ms</span>
+                <span class="method-start">22813 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">65667 ms</span>
+                <span class="method-start">67490 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">65896 ms</span>
+                <span class="method-start">69522 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tc02_Verify_if_tax_projections_are_displayed__For_Employed</span>
-                <span class="method-start">109816 ms</span>
+                <span class="method-start">94292 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">quit</span>
-                <span class="method-start">157147 ms</span>
+                <span class="method-start">139780 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
-                <span class="method-start">159117 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed</span>
-                <span class="method-start">179263 ms</span>
+                <span class="method-start">140174 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">234880 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
-                <span class="method-start">235178 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed</span>
-                <span class="method-start">255605 ms</span>
+                <span class="method-start">140204 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">306428 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

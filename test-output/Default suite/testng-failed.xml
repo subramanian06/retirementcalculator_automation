@@ -9,6 +9,7 @@
           <include name="tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed"/>
           <include name="quit"/>
           <include name="tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed"/>
+          <include name="tc02_Verify_if_tax_projections_are_displayed__For_Employed"/>
           <include name="Set"/>
         </methods>
       </class> <!-- nz.co.westpac.test.RegressionTest -->
