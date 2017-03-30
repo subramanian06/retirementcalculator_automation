@@ -1,24 +1,31 @@
 package nz.co.westpac.pages;
 
 import nz.co.repository.SiteRepository;
-import nz.co.westpac.entities.DriverManagerInstance;
 
-public class SitePage extends DriverManagerInstance{
+/**
+ * 
+ * @author Subramanian_K
+ *
+ */
+public class SitePage {
+
 	protected SiteRepository repository;
-	
-	protected SitePage(SiteRepository repository){
-		this.repository=repository;
+
+	/**
+	 * SitePage constructor with input parameter of site repository class for
+	 * accessing all the page objects
+	 * 
+	 * @param repository
+	 */
+	protected SitePage(SiteRepository repository) {
+		this.repository = repository;
 	}
-	
+
 	public HomePage _GoToHomePage() {
 		return this.repository.homePage();
 	}
-	
-	public SitePage _GoToStartPage() {
-		return this.repository.start();
-	}
-	
-	public CalculatorPage _GoToCalculatorPage(){
+
+	public CalculatorPage _GoToCalculatorPage() {
 		return this.repository.calculatorPage();
 	}
 

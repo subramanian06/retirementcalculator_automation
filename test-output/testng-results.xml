@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[Passed: Maximizing the window...]]>
     </line>
     <line>
-      <![CDATA[Passed: Mouse hover on element successfull...]]>
+      <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
     </line>
     <line>
       <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
@@ -17,24 +17,194 @@
       <![CDATA[Passed:Clicked on the age info icon...]]>
     </line>
     <line>
-      <![CDATA[Passed:Field info is present on clicking the info icon...]]>
+      <![CDATA[Passed:Field info is present on clicking the info icon...This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver.]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Maximizing the window...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on the click on to get started button successfully...]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Entered the age as :30]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on employee Status drop down]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Selected the employee status as :Employed]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Entered the employee salary as :82000]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked the kiwi saver contribution as :4%]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) drop down]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) % as :17.5%]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on risk profile as :High]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on view retirement projection button]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
+$
+400,615]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Retirement projection graph is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Maximizing the window...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on the click on to get started button successfully...]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Entered the age as :45]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on employee Status drop down]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Selected the employee status as :Self-employed]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Entered the Kiwi saver balance as : 100000]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Entered the voluntary contributes amount as : 90]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked the voluntary contributes frequency dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked the voluntary contributes frequency as :Fortnightly]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Entered the savings goal amount as : 290000]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) drop down]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) % as :10.5%]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on risk profile as :Medium]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on view retirement projection button]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
+$
+281,438]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Retirement projection graph is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Maximizing the window...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on the click on to get started button successfully...]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Entered the age as :55]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on employee Status drop down]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Selected the employee status as :Not employed]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Entered the Kiwi saver balance as : 140000]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Entered the voluntary contributes amount as : 90]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked the voluntary contributes frequency dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked the voluntary contributes frequency as :Annually]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Entered the savings goal amount as : 200000]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) drop down]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) % as :10.5%]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on risk profile as :Medium]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Clicked on view retirement projection button]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
+$
+199,401]]>
+    </line>
+    <line>
+      <![CDATA[Passed: Retirement projection graph is successfully displayed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57458" started-at="2017-03-30T05:21:13Z" finished-at="2017-03-30T05:22:10Z">
+  <suite name="Default suite" duration-ms="306633" started-at="2017-03-30T13:16:30Z" finished-at="2017-03-30T13:21:37Z">
     <groups>
-      <group name="Passed">
-        <method signature="RegressionTest.t01_Verify_if_information_Icon_Works_Fine()[pri:0, instance:nz.co.westpac.test.RegressionTest@5939a379]" name="t01_Verify_if_information_Icon_Works_Fine" class="nz.co.westpac.test.RegressionTest"/>
-      </group> <!-- Passed -->
+      <group name="Regression">
+        <method signature="RegressionTest.t01_Verify_if_information_Icon_Works_Fine()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="t01_Verify_if_information_Icon_Works_Fine" class="nz.co.westpac.test.RegressionTest"/>
+        <method signature="RegressionTest.tc02_Verify_if_tax_projections_are_displayed__For_Employed()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="tc02_Verify_if_tax_projections_are_displayed__For_Employed" class="nz.co.westpac.test.RegressionTest"/>
+        <method signature="RegressionTest.tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed" class="nz.co.westpac.test.RegressionTest"/>
+        <method signature="RegressionTest.tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed" class="nz.co.westpac.test.RegressionTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="Default test" duration-ms="57458" started-at="2017-03-30T05:21:13Z" finished-at="2017-03-30T05:22:10Z">
+    <test name="Default test" duration-ms="306633" started-at="2017-03-30T13:16:30Z" finished-at="2017-03-30T13:21:37Z">
       <class name="nz.co.westpac.test.RegressionTest">
-        <test-method status="PASS" signature="t01_Verify_if_information_Icon_Works_Fine()[pri:0, instance:nz.co.westpac.test.RegressionTest@5939a379]" name="t01_Verify_if_information_Icon_Works_Fine" duration-ms="57063" started-at="2017-03-30T10:51:13Z" description="verify if the user is able to get a clear understanding of what needs to be entered in the field." finished-at="2017-03-30T10:52:10Z">
+        <test-method status="PASS" signature="Set()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="Set" is-config="true" duration-ms="22" started-at="2017-03-30T18:46:30Z" finished-at="2017-03-30T18:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Set -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="openBrowser" is-config="true" duration-ms="22194" started-at="2017-03-30T18:46:30Z" finished-at="2017-03-30T18:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="t01_Verify_if_information_Icon_Works_Fine()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="t01_Verify_if_information_Icon_Works_Fine" duration-ms="43400" started-at="2017-03-30T18:46:52Z" description="verify if the user is able to get a clear understanding of what needs to be entered in the field." finished-at="2017-03-30T18:47:36Z">
           <reporter-output>
             <line>
               <![CDATA[Passed: Maximizing the window...]]>
             </line>
             <line>
-              <![CDATA[Passed: Mouse hover on element successfull...]]>
+              <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
             </line>
             <line>
               <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
@@ -46,11 +216,206 @@
               <![CDATA[Passed:Clicked on the age info icon...]]>
             </line>
             <line>
-              <![CDATA[Passed:Field info is present on clicking the info icon...]]>
+              <![CDATA[Passed:Field info is present on clicking the info icon...This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver.]]>
             </line>
           </reporter-output>
         </test-method> <!-- t01_Verify_if_information_Icon_Works_Fine -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:nz.co.westpac.test.RegressionTest@5939a379]" name="quit" is-config="true" duration-ms="225" started-at="2017-03-30T10:52:10Z" finished-at="2017-03-30T10:52:10Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="quit" is-config="true" duration-ms="225" started-at="2017-03-30T18:47:36Z" finished-at="2017-03-30T18:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="openBrowser" is-config="true" duration-ms="43920" started-at="2017-03-30T18:47:36Z" finished-at="2017-03-30T18:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="tc02_Verify_if_tax_projections_are_displayed__For_Employed()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="tc02_Verify_if_tax_projections_are_displayed__For_Employed" duration-ms="47327" started-at="2017-03-30T18:48:20Z" description="verify if a employed user is able to calculate what their KiwiSaver projected balance would be at retirement" finished-at="2017-03-30T18:49:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: Maximizing the window...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on the click on to get started button successfully...]]>
+            </line>
+            <line>
+              <![CDATA[Passed:Entered the age as :30]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on employee Status drop down]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Selected the employee status as :Employed]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Entered the employee salary as :82000]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked the kiwi saver contribution as :4%]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) drop down]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) % as :17.5%]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on risk profile as :High]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on view retirement projection button]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
+$
+400,615]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Retirement projection graph is successfully displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc02_Verify_if_tax_projections_are_displayed__For_Employed -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="quit" is-config="true" duration-ms="1969" started-at="2017-03-30T18:49:07Z" finished-at="2017-03-30T18:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="openBrowser" is-config="true" duration-ms="20146" started-at="2017-03-30T18:49:09Z" finished-at="2017-03-30T18:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed" duration-ms="55614" started-at="2017-03-30T18:49:29Z" description="verify if a self employed user is able to calculate what their KiwiSaver projected balance would be at retirement" finished-at="2017-03-30T18:50:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: Maximizing the window...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on the click on to get started button successfully...]]>
+            </line>
+            <line>
+              <![CDATA[Passed:Entered the age as :45]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on employee Status drop down]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Selected the employee status as :Self-employed]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Entered the Kiwi saver balance as : 100000]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Entered the voluntary contributes amount as : 90]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked the voluntary contributes frequency dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked the voluntary contributes frequency as :Fortnightly]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Entered the savings goal amount as : 290000]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) drop down]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) % as :10.5%]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on risk profile as :Medium]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on view retirement projection button]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
+$
+281,438]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Retirement projection graph is successfully displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc03_Verify_if_tax_projections_are_displayed__For_Self_Employed -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="quit" is-config="true" duration-ms="297" started-at="2017-03-30T18:50:25Z" finished-at="2017-03-30T18:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="openBrowser" is-config="true" duration-ms="20427" started-at="2017-03-30T18:50:25Z" finished-at="2017-03-30T18:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed" duration-ms="50817" started-at="2017-03-30T18:50:46Z" description="verify if a unemployed user is able to calculate what their KiwiSaver projected balance would be at retirement" finished-at="2017-03-30T18:51:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: Maximizing the window...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Mouse hover on kiwi saver button successfull...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on the kiwi saver calculator button successfully...]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on the click on to get started button successfully...]]>
+            </line>
+            <line>
+              <![CDATA[Passed:Entered the age as :55]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on employee Status drop down]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Selected the employee status as :Not employed]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Entered the Kiwi saver balance as : 140000]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Entered the voluntary contributes amount as : 90]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked the voluntary contributes frequency dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked the voluntary contributes frequency as :Annually]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Entered the savings goal amount as : 200000]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) drop down]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on PIR(Prescribed investor rate) % as :10.5%]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on risk profile as :Medium]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Clicked on view retirement projection button]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Retirement projection is successfully displayed as: At age 65, your KiwiSaver balance is estimated to be:
+$
+199,401]]>
+            </line>
+            <line>
+              <![CDATA[Passed: Retirement projection graph is successfully displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc04_Verify_if_tax_projections_are_displayed__For_UnEmployed -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:nz.co.westpac.test.RegressionTest@5442a311]" name="quit" is-config="true" duration-ms="226" started-at="2017-03-30T18:51:36Z" finished-at="2017-03-30T18:51:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

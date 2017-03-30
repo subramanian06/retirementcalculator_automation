@@ -20,5 +20,7 @@ savingsGoal3: '200000',
 riskProfile1: 'High',
 riskProfile2: 'Medium',
 frequency2: 'Fortnightly',
-frequency3: 'Annualy'
+frequency3: 'Annually',
+browser: 'chrome',
+url: 'http://www.westpac.co.nz/'
 }
