@@ -40,16 +40,13 @@ public class Starter {
 	@BeforeMethod
 	public void openBrowser() {
 		if (data_browser.equalsIgnoreCase("chrome")) {
-			driver = new ChromeDriver();
-			launchUrl();
+			driver = new ChromeDriver();			
 		} else if (data_browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
-			launchUrl();
 		} else if (data_browser.equalsIgnoreCase("ie")) {
 			driver = new InternetExplorerDriver();
-			launchUrl();
 		}
-
+		launchUrl();
 	}
 
 	/**
