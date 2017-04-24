@@ -18,11 +18,9 @@ public class HomePage extends SitePage {
 	private static final String btn_kiwiSaveCalculator = "(//a[contains(text(),'KiwiSaver calculators')])";
 	private static final String txt_headerText = "(//h1[contains(text(),'Westpac KiwiSaver Scheme Risk Profiler and Retirement Calculator')])";
 	private static final String btn_clickhere = "//a[contains(text(),'Click here to get started')]";
-	SiteRepository repository;
 
 	public HomePage(SiteRepository repository) {
 		super(repository);
-		this.repository = repository;
 	}
 
 	/*********************************************************************

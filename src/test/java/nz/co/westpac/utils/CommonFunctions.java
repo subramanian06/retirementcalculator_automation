@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import junit.framework.Assert;
+import nz.co.repository.SiteRepository;
 import nz.co.repository.Starter;
 import nz.co.westpac.datacomponents.RetirementCalcData;
 
@@ -18,7 +19,7 @@ import nz.co.westpac.datacomponents.RetirementCalcData;
  *
  */
 
-public class CommonFunctions extends Starter {
+public class CommonFunctions extends SiteRepository {
 	public static final String ANSI_RED = "\u001B[31m";
 	public static final String ANSI_GREEN = "\u001B[32m";
 

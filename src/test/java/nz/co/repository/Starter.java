@@ -57,8 +57,5 @@ public class Starter {
 		driver.manage().window().maximize();
 	}
 
-	public static WebDriver getDriver() {
-		return driver;
-	}
 
 }

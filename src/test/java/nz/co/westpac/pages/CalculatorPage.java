@@ -15,7 +15,6 @@ import static nz.co.westpac.utils.Waiting.*;
 
 public class CalculatorPage extends SitePage {
 
-	SiteRepository repository;
 
 	public CalculatorPage(SiteRepository repository) {
 		super(repository);
