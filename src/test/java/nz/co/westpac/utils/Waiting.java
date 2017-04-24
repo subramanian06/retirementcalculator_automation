@@ -1,6 +1,6 @@
 package nz.co.westpac.utils;
 
-import nz.co.repository.Starter;
+import nz.co.repository.SiteRepository;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * @author Subramanian_K
  *
  */
-public class Waiting extends Starter {
+public class Waiting extends SiteRepository {
 	public static final int WAITING_MILLISECONDS_HIGH = 5000;
 	public static final int WAITING_MILLISECONDS_LOW = 1000;
 	public static final int WAITING_SECONS_LOW = WAITING_MILLISECONDS_LOW / 100;

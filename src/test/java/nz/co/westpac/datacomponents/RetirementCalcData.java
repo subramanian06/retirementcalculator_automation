@@ -15,17 +15,17 @@ public class RetirementCalcData {
 	 * @param key
 	 * @return Map
 	 */
-public static Map fetch(String key){
-		
-		Object object = null;
+@SuppressWarnings("unchecked")
+public static Map<String,String> fetch(){
 		YamlReader reader;
+		Map<String, String> map = null;
 		try {
 			reader = new YamlReader(new FileReader("data-pool/Data.yaml"));
-			object = reader.read();
+			map = (Map<String, String>) reader.read();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Map map = (Map)object;
+    
 		return map;
 	}
 }

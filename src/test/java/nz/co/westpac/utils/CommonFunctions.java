@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+
 import junit.framework.Assert;
 import nz.co.repository.SiteRepository;
-import nz.co.repository.Starter;
 import nz.co.westpac.datacomponents.RetirementCalcData;
 
 /**
@@ -31,7 +31,7 @@ public class CommonFunctions extends SiteRepository {
 	public static void consolePrint(String message) {
 		if (message.toLowerCase().contains("passed")) {
 			System.out.println(ANSI_GREEN + message);
-		} else if (message.contains("failed")) {
+		} else if (message.toLowerCase().contains("failed")) {
 			System.out.println(ANSI_RED + message);
 		} else {
 			System.out.println(message);
@@ -102,7 +102,7 @@ public class CommonFunctions extends SiteRepository {
 	 */
 
 	public static String read(String key) {
-		Map dataReturn = RetirementCalcData.fetch("ageCalcMessage");
+		Map<String,String> dataReturn = RetirementCalcData.fetch();
 		return dataReturn.get(key).toString();
 	}
 
@@ -156,5 +156,6 @@ public class CommonFunctions extends SiteRepository {
 	public static WebDriver switchFrame(String xpath) {
 		return driver.switchTo().frame(driverFindElementByXpath(xpath));
 	}
+	
 
 }
