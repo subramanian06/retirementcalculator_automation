@@ -21,12 +21,4 @@ public class SitePage {
 		this.repository = repository;
 	}
 
-	public HomePage _GoToHomePage() {
-		return this.repository.homePage();
-	}
-
-	public CalculatorPage _GoToCalculatorPage() {
-		return this.repository.calculatorPage();
-	}
-
 }
